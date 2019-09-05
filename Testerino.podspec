@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source = { :http => "http://slc12jce.us.oracle.com:8081/artifactory/generic_repo/ios/frameworks/chartdataparser/chartdataparser-1.2.0.zip", :type => 'zip'}
 
   s.ios.deployment_target = '11.0'
-  s.vendored_framework     = "Testerino/KotlinChartDataParser.framework"
+  s.vendored_framework     = "KotlinChartDataParser.framework"
 
   # s.source_files = 'pOdAuth/Classes/**/*'
   
