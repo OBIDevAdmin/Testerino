@@ -28,7 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/OBIDevAdmin/Testerino.git'}
 
   s.ios.deployment_target = '11.0'
-  s.ios.vendored_frameworks = 'KotlinChartDataParser.framework'
+  s.ios.vendored_frameworks = { :http => "http://slc12jce.us.oracle.com:8081/artifactory/generic_repo/ios/frameworks/chartdataparser/chartdataparser-1.2.0.zip", :type => 'zip'}
+
 
   # s.source_files = 'pOdAuth/Classes/**/*'
   
